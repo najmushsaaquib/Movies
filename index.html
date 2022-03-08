@@ -45,8 +45,18 @@
       <!--Show Slideshow here-->
     </div>
 
+    <!-- <h1>List of Movies</h1> -->
+    
     <div id="sort-buttons">
       <!--Add sorting here-->
+
+      <select id="sort" onchange="sortme()" >
+        <option value="">Sort by Rating</option>
+        <option id="sort-lh" value="sort-lh">Low To High</option>
+        <option id="sort-hl" value="sort-hl">High To Low</option>
+      </select>
+
+     
     </div>
     <div id="movies">
       <!--Show list of movies here-->
